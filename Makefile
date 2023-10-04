@@ -33,6 +33,7 @@ install-pre-commit:
 	python "pre-commit-$(PRE_COMMIT_VERSION).pyz"
 	@echo "$(GREEN)Pre-Commit installation complete.$(RESET)"
 
+
 start-katana:
 	katana
 
